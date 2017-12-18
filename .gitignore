@@ -1,0 +1,54 @@
+# Intellij project files
+*.ipr
+*.iws
+.idea/
+
+# packages and binaries:
+*.jar
+*.war
+
+# because they contain machine-dependent info and should not be committed
+*.classpath
+*.settings
+local.properties
+.settings/
+.loadpath
+
+# vim temp files:
+*.swp
+
+# mergetool files
+*.orig
+
+
+# reports
+*.html
+*.png
+
+# Generated for user in Xcode.
+UserInterfaceState.xcuserstate
+**/*/xcuserdata/*
+
+# directory patterns:
+# never commit binaries, build artifacts, logs or reports:
+.metadata/
+bin/
+target/
+logs/
+surefire-reports/
+reports/
+#classes/
+#classes/conf/
+*.class
+*/target
+*/.classpath
+*/.project
+*/.settings
+*/test-output
+
+*/*/target
+*/*/.classpath
+*/*/.project
+*/*/.settings
+*/*/test-output
+*/*.iml
