@@ -1,10 +1,11 @@
 package Driver;
 
+import Core.Wrapper;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
-import Core.Wrapper;
 
 public class DriverClass {
 
@@ -34,7 +35,8 @@ public class DriverClass {
             System.out.println("Considering default test file2 as source " + f2.getAbsoluteFile());
         }
 
-        Wrapper<Object,Object> xyWrapper = new Wrapper<>();
+        Object x = "",y = "";
+        Wrapper<Object,Object> xyWrapper = new Wrapper<Object, Object>(x,y);
         xyWrapper.getData(f1,f2);
     }
 }

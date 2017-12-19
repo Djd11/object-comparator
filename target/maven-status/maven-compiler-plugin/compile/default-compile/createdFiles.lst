@@ -1,4 +1,5 @@
-Core/IComparator.class
 Driver/DriverClass.class
+Core/IComparator.class
+Core/Wrapper$1.class
 Core/HttpClient/HttpClientWrapper.class
 Core/Wrapper.class

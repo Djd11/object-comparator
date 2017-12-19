@@ -1,4 +1,4 @@
-http://localhost:8080/static/sample.xml
+http://www.google.com
 https://raw.githubusercontent.com/Djd11/api-response/master/user/1/page1/1/sample.json
 https://raw.githubusercontent.com/Djd11/api-response/master/user/1/page1/2/sample.xml
 https://raw.githubusercontent.com/Djd11/api-response/master/user/2/page1/1/sample.xml
